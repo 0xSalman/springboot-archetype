@@ -10,13 +10,5 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="app")
 public class AppConfig {
 
-	private String cloudDBService;
 
-	public String getCloudDBService() {
-		return cloudDBService;
-	}
-
-	public void setCloudDBService(String cloudDBService) {
-		this.cloudDBService = cloudDBService;
-	}
 }
