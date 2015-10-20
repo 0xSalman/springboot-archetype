@@ -18,6 +18,7 @@
                 <include>**/*.xml</include>
                 <include>**/*.html</include>
                 <include>**/*.properties</include>
+                <include>**/*.yml</include>
                 <include>**/*.js</include>
                 <include>**/*.css</include>
                 <include>**/*.eot</include>
