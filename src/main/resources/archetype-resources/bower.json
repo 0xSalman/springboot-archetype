@@ -1,7 +1,7 @@
 {
-  "name": "disasterapp",
+  "name": "projectName",
   "version": "1.0",
-  "description": "Display Canadian disasters which have happened within last century",
+  "description": "Project Description",
   "license": "MIT",
   "private": true,
   "ignore": [

@@ -18,8 +18,8 @@
                 <include>**/*.xml</include>
                 <include>**/*.html</include>
                 <include>**/*.properties</include>
-	            <include>**/*.js</include>
-	            <include>**/*.css</include>
+                <include>**/*.js</include>
+                <include>**/*.css</include>
                 <include>**/*.eot</include>
                 <include>**/*.woff2</include>
                 <include>**/*.woff</include>
@@ -31,7 +31,7 @@
             <directory></directory>
             <includes>
                 <include>.gitignore</include>
-                <!--<include>bower.json</include>-->
+                <include>bower.json</include>
             </includes>
         </fileSet>
     </fileSets>
