@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: lucidspring
+  view:
+    prefix: html/
+    suffix: .html
+  jackson:
+      date-format: dd-MM-yyyy HH:mm:ss
