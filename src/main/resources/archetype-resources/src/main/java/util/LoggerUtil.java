@@ -9,8 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class LoggerUtil {
 
-
-    public static <T> void logServiceError(Class<T> clazz, String methodName, Throwable ex, Object...objects) {
+    public static <T> void logServiceError(Class<T> clazz, String methodName, Throwable ex, Object... objects) {
         Logger logger = LoggerFactory.getLogger(clazz);
         logger.error("Exception in Service Layer: {}({}) - Original Exception was {}", methodName, objects, ex);
     }
@@ -68,7 +67,7 @@ public class LoggerUtil {
     public static <T> long logEnter(Class<T> clazz, String methodName) {
         Logger logger = LoggerFactory.getLogger(clazz);
 
-        logger.trace("ENTER: {}",  methodName);
+        logger.trace("ENTER: {}", methodName);
         return System.currentTimeMillis();
     }
 
