@@ -1,11 +1,19 @@
+app:
+  logging:
+    dir: /var/log/matchhub
+    level: DEBUG
+    maxNumFiles: 10
+    maxFileSize: 10MB
+
 spring:
   data:
     mongodb:
       host: localhost
       port: 27017
       database: lucidspring
-  view:
-    prefix: html/
-    suffix: .html
+  mvc:
+    view:
+      prefix: html/
+      suffix: .html
   jackson:
       date-format: dd-MM-yyyy HH:mm:ss
